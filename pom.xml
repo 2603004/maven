@@ -3,12 +3,24 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.javarticles.webapp</groupId>
 	<artifactId>webappExample</artifactId>
-	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>webappExample Maven Webapp</name>
+	<packaging>war</packaging>
+	<name>AbhayProject Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
-		<dependency>
+<dependency>
+<groupId>org.seleniumhq.selenium</groupId>
+		
+		<artifactId>selenium-java</artifactId>
+      <version>4.20.0</version> 
+        </dependency>
+<dependency>
+<groupId>org.testng</groupId>
+<artifactId>testng</artifactId>
+<version>7.7.0</version> 
+<scope>test</scope>
+</dependency>
+<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>3.8.1</version>
@@ -19,6 +31,11 @@
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.1.0</version>
 			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-firefox-driver</artifactId>
+			<version>4.20.0</version> <!-- Optional: if you use Firefox -->
 		</dependency>
 	</dependencies>
 	
